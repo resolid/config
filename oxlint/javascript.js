@@ -23,6 +23,8 @@ export default defineConfig({
   rules: {
     curly: "warn",
     "guard-for-in": "warn",
+    "logical-assignment-operators": "error",
+    "object-shorthand": "error",
 
     "no-case-declarations": "error",
     "no-empty": "error",
@@ -33,6 +35,7 @@ export default defineConfig({
     "no-var": "error",
     "no-array-constructor": "error",
     "no-useless-call": "error",
+    "no-useless-assignment": "error",
     "no-await-in-loop": "error",
     "no-template-curly-in-string": "error",
 
@@ -44,12 +47,20 @@ export default defineConfig({
     "prefer-object-spread": "warn",
     "prefer-exponentiation-operator": "warn",
     "prefer-numeric-literals": "warn",
+    "prefer-named-capture-group": "error",
+    "prefer-regex-literals": "error",
 
     "import/export": "error",
     "import/named": "error",
     "import/no-named-as-default": "warn",
     "import/no-named-as-default-member": "warn",
     "import/no-duplicates": "warn",
+
+    "unicorn/no-useless-iterator-to-array": "error",
+    "unicorn/prefer-import-meta-properties": "error",
+    "unicorn/prefer-module": "error",
+    "unicorn/prefer-ternary": "error",
+    "unicorn/switch-case-break-position": "error",
 
     "oxc/no-accumulating-spread": "error",
     "oxc/no-map-spread": "error",

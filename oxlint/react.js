@@ -27,6 +27,13 @@ export default defineConfig({
     "react/jsx-pascal-case": "error",
     "react/jsx-curly-brace-presence": "warn",
     "react/jsx-no-useless-fragment": "warn",
+    "react/prefer-function-component": "error",
+    "react/no-unstable-nested-components": "error",
+    "react/jsx-no-constructed-context-values": "error",
+    "react/no-array-index-key": "error",
+    "react/no-clone-element": "error",
+    "react/hook-use-state": "error",
+    "react/jsx-handler-names": "error",
     "react/only-export-components": [
       "warn",
       {
