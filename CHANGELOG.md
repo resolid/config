@@ -1,5 +1,11 @@
 # @resolid/config
 
+## 5.3.25
+
+### Patch Changes
+
+- [`3670d76`](https://github.com/resolid/config/commit/3670d76b4b12dd5131483032a1d7725e3faf95c3) - chore: upgrade oxlint to 1.70.0 and enable react/react-compiler rule
+
 ## 5.3.24
 
 ### Patch Changes
