@@ -47,19 +47,17 @@
     "@changesets/cli": "^2.31.0",
     "@commitlint/cli": "^21.0.2",
     "@commitlint/config-conventional": "^21.0.2",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-you-might-not-need-an-effect": "^1.0.0",
+    "eslint-plugin-react-you-might-not-need-an-effect": "^1.0.1",
     "lefthook": "^2.1.9",
-    "oxfmt": "^0.54.0",
-    "oxlint": "^1.69.0",
+    "oxfmt": "^0.55.0",
+    "oxlint": "^1.70.0",
     "oxlint-tsgolint": "^0.23.0",
     "typescript": "^6.0.3"
   },
   "peerDependencies": {
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-you-might-not-need-an-effect": "^1.0.0",
-    "oxfmt": "^0.54.0",
-    "oxlint": "^1.69.0",
+    "eslint-plugin-react-you-might-not-need-an-effect": "^1.0.1",
+    "oxfmt": "^0.55.0",
+    "oxlint": "^1.70.0",
     "oxlint-tsgolint": "^0.23.0",
     "typescript": "^6.0.3"
   },
@@ -70,9 +68,6 @@
     "oxlint-tsgolint": {
       "optional": true
     },
-    "eslint-plugin-react-hooks": {
-      "optional": true
-    },
     "eslint-plugin-react-you-might-not-need-an-effect": {
       "optional": true
     }
@@ -80,5 +75,5 @@
   "engines": {
     "node": "^22.13.0 || >=24"
   },
-  "packageManager": "pnpm@11.6.0"
+  "packageManager": "pnpm@11.7.0"
 }

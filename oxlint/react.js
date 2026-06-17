@@ -3,10 +3,6 @@ import { defineConfig } from "oxlint";
 export default defineConfig({
   jsPlugins: [
     {
-      name: "react-hooks-js",
-      specifier: "eslint-plugin-react-hooks",
-    },
-    {
       name: "react-you-might-not-need-an-effect-js",
       specifier: "eslint-plugin-react-you-might-not-need-an-effect",
     },
@@ -60,31 +56,17 @@ export default defineConfig({
     "react/rules-of-hooks": "error",
     "react/exhaustive-deps": ["warn", { additionalHooks: "useIsomorphicEffect" }],
 
-    // react-hooks-js Recommended
-    "react-hooks-js/config": "error",
-    "react-hooks-js/error-boundaries": "error",
-    "react-hooks-js/gating": "error",
-    "react-hooks-js/globals": "error",
-    "react-hooks-js/immutability": "error",
-    "react-hooks-js/preserve-manual-memoization": "error",
-    "react-hooks-js/purity": "error",
-    "react-hooks-js/refs": "error",
-    "react-hooks-js/set-state-in-effect": "error",
-    "react-hooks-js/set-state-in-render": "error",
-    "react-hooks-js/static-components": "error",
-    "react-hooks-js/unsupported-syntax": "error",
-    "react-hooks-js/use-memo": "error",
-    "react-hooks-js/void-use-memo": "error",
-    "react-hooks-js/incompatible-library": "error",
+    "react/react-compiler": "error",
 
     // react-you-might-not-need-an-effect-js Recommended
+    "react-you-might-not-need-an-effect-js/no-derived-state": "warn",
+    "react-you-might-not-need-an-effect-js/no-chain-state-updates": "warn",
+    "react-you-might-not-need-an-effect-js/no-event-handler": "warn",
     "react-you-might-not-need-an-effect-js/no-adjust-state-on-prop-change": "warn",
     "react-you-might-not-need-an-effect-js/no-reset-all-state-on-prop-change": "warn",
-    "react-you-might-not-need-an-effect-js/no-event-handler": "warn",
     "react-you-might-not-need-an-effect-js/no-pass-live-state-to-parent": "warn",
     "react-you-might-not-need-an-effect-js/no-pass-data-to-parent": "warn",
+    "react-you-might-not-need-an-effect-js/no-external-store-subscription": "warn",
     "react-you-might-not-need-an-effect-js/no-initialize-state": "warn",
-    "react-you-might-not-need-an-effect-js/no-chain-state-updates": "warn",
-    "react-you-might-not-need-an-effect-js/no-derived-state": "warn",
   },
 });

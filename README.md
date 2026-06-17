@@ -75,7 +75,7 @@ export default defineConfig({
 由于 Oxlint 配置解析器的限制，目前你必须直接安装所需的 JS 插件
 
 ```shell
-pnpm add -D eslint-plugin-react-hooks eslint-plugin-react-you-might-not-need-an-effect
+pnpm add -D eslint-plugin-react-you-might-not-need-an-effect
 ```
 
 ```js
