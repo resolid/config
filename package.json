@@ -49,15 +49,15 @@
     "@commitlint/config-conventional": "^21.0.2",
     "eslint-plugin-react-you-might-not-need-an-effect": "^1.0.1",
     "lefthook": "^2.1.9",
-    "oxfmt": "^0.55.0",
-    "oxlint": "^1.70.0",
+    "oxfmt": "^0.56.0",
+    "oxlint": "^1.71.0",
     "oxlint-tsgolint": "^0.23.0",
     "typescript": "^6.0.3"
   },
   "peerDependencies": {
     "eslint-plugin-react-you-might-not-need-an-effect": "^1.0.1",
-    "oxfmt": "^0.55.0",
-    "oxlint": "^1.70.0",
+    "oxfmt": "^0.56.0",
+    "oxlint": "^1.71.0",
     "oxlint-tsgolint": "^0.23.0",
     "typescript": "^6.0.3"
   },
@@ -75,5 +75,5 @@
   "engines": {
     "node": "^22.13.0 || >=24"
   },
-  "packageManager": "pnpm@11.7.0"
+  "packageManager": "pnpm@11.8.0"
 }

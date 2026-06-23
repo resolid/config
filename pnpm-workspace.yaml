@@ -1,4 +1,5 @@
 overrides:
+  "@types/node": "^24.13.2"
   safer-buffer: npm:@nolyfill/safer-buffer@^1
 engineStrict: true
 allowBuilds:
