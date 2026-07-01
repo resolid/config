@@ -4,3 +4,4 @@ overrides:
 engineStrict: true
 allowBuilds:
   lefthook: true
+minimumReleaseAge: 600
