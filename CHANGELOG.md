@@ -1,5 +1,11 @@
 # @resolid/config
 
+## 5.3.28
+
+### Patch Changes
+
+- [`738c983`](https://github.com/resolid/config/commit/738c983a75a62fcb4e1991751814c9cf9412112d) - feat: update some lint rules
+
 ## 5.3.27
 
 ### Patch Changes
