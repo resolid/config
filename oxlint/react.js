@@ -58,11 +58,6 @@ export default defineConfig({
 
     "react/react-compiler": "error",
 
-    "react-perf/jsx-no-jsx-as-prop": "error",
-    "react-perf/jsx-no-new-array-as-prop": "error",
-    "react-perf/jsx-no-new-function-as-prop": "error",
-    "react-perf/jsx-no-new-object-as-prop": "error",
-
     // react-you-might-not-need-an-effect-js Recommended
     "react-you-might-not-need-an-effect-js/no-derived-state": "warn",
     "react-you-might-not-need-an-effect-js/no-chain-state-updates": "warn",
