@@ -4,5 +4,6 @@
   "prettier.enable": false,
   "editor.formatOnSave": true,
   "oxc.typeAware": true,
+  "js/ts.experimental.useTsgo": false,
   "js/ts.tsdk.path": "node_modules/typescript/lib"
 }
