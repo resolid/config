@@ -1,5 +1,11 @@
 # @resolid/config
 
+## 6.0.0
+
+### Major Changes
+
+- [`b5bfed5`](https://github.com/resolid/config/commit/b5bfed5fd3347119a8322c2da137567959138716) - feat: upgrade typescript to v7
+
 ## 5.3.30
 
 ### Patch Changes
