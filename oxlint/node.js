@@ -10,5 +10,6 @@ export default defineConfig({
     "node/no-new-require": "error",
     "node/no-path-concat": "error",
     "node/no-process-env": "error",
+    "node/no-sync": "error",
   },
 });
