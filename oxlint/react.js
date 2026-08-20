@@ -56,8 +56,6 @@ export default defineConfig({
     "react/rules-of-hooks": "error",
     "react/exhaustive-deps": ["warn", { additionalHooks: "useIsomorphicEffect" }],
 
-    "react/react-compiler": "error",
-
     // react-you-might-not-need-an-effect-js Recommended
     "react-you-might-not-need-an-effect-js/no-derived-state": "warn",
     "react-you-might-not-need-an-effect-js/no-chain-state-updates": "warn",
