@@ -43,19 +43,19 @@
     "changeset": "changeset"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "^1.0.0",
-    "@changesets/cli": "^3.0.1",
+    "@changesets/changelog-github": "^1.0.1",
+    "@changesets/cli": "^3.0.3",
     "@commitlint/cli": "^21.2.2",
     "@commitlint/config-conventional": "^21.2.2",
-    "lefthook": "^2.1.10",
-    "oxfmt": "^0.65.0",
-    "oxlint": "^1.80.0",
+    "lefthook": "^2.1.14",
+    "oxfmt": "^0.68.0",
+    "oxlint": "^1.83.0",
     "typescript": "^7.0.2"
   },
   "peerDependencies": {
     "eslint-plugin-react-you-might-not-need-an-effect": "^1.0.2",
-    "oxfmt": "^0.65.0",
-    "oxlint": "^1.80.0",
+    "oxfmt": "^0.68.0",
+    "oxlint": "^1.83.0",
     "oxlint-tsgolint": "^7.0.2001",
     "typescript": "^7.0.2"
   },
@@ -73,5 +73,5 @@
   "engines": {
     "node": "^22.22.0 || >=24"
   },
-  "packageManager": "pnpm@11.23.0"
+  "packageManager": "pnpm@12.4.2"
 }
