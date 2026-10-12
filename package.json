@@ -56,7 +56,7 @@
     "eslint-plugin-react-you-might-not-need-an-effect": "^1.0.2",
     "oxfmt": "^0.72.0",
     "oxlint": "^1.87.0",
-    "oxlint-tsgolint": "^7.0.2003",
+    "oxlint-tsgolint": "^7.0.2004",
     "typescript": "^7.0.2"
   },
   "peerDependenciesMeta": {
@@ -73,5 +73,5 @@
   "engines": {
     "node": "^22.22.0 || >=24"
   },
-  "packageManager": "pnpm@12.10.1"
+  "packageManager": "pnpm@12.11.2"
 }
