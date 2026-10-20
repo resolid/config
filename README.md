@@ -49,9 +49,9 @@ pnpm add -D @resolid/config oxlint oxfmt oxlint-tsgolint typescript
 ### Javascript Lint 配置
 
 ```js
+import javascriptConfig from "@resolid/config/oxlint/javascript";
 // oxlint.config.ts
 import { defineConfig } from "oxlint";
-import javascriptConfig from "@resolid/config/oxlint/javascript";
 
 export default defineConfig({
   extends: [javascriptConfig],
@@ -61,9 +61,9 @@ export default defineConfig({
 ### TypeScript Lint 配置
 
 ```js
+import typescriptConfig from "@resolid/config/oxlint/typescript";
 // oxlint.config.ts
 import { defineConfig } from "oxlint";
-import typescriptConfig from "@resolid/config/oxlint/typescript";
 
 export default defineConfig({
   extends: [typescriptConfig],
@@ -79,9 +79,9 @@ pnpm add -D eslint-plugin-react-you-might-not-need-an-effect
 ```
 
 ```js
+import reactConfig from "@resolid/config/oxlint/react";
 // oxlint.config.ts
 import { defineConfig } from "oxlint";
-import reactConfig from "@resolid/config/oxlint/react";
 
 export default defineConfig({
   extends: [reactConfig],
@@ -91,12 +91,12 @@ export default defineConfig({
 ### 环境 Lint 设置
 
 ```js
-// oxlint.config.ts
-import { defineConfig } from "oxlint";
 // 浏览器环境
 import browserConfig from "@resolid/config/oxlint/browser";
 // Node 环境
 import nodeConfig from "@resolid/config/oxlint/node";
+// oxlint.config.ts
+import { defineConfig } from "oxlint";
 
 export default defineConfig({
   extends: [browserConfig, nodeConfig],
