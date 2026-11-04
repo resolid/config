@@ -1,13 +1,8 @@
 import { defineConfig } from "oxlint";
 
 export default defineConfig({
-  jsPlugins: [
-    {
-      name: "react-you-might-not-need-an-effect-js",
-      specifier: "eslint-plugin-react-you-might-not-need-an-effect",
-    },
-  ],
   plugins: ["react", "react-perf", "jsx-a11y"],
+  jsPlugins: ["eslint-plugin-react-you-might-not-need-an-effect"],
   rules: {
     "react/capitalized-calls": "error",
     "react/display-name": "error",
@@ -65,14 +60,14 @@ export default defineConfig({
     "react/exhaustive-deps": ["warn", { additionalHooks: "useIsomorphicEffect" }],
 
     // react-you-might-not-need-an-effect-js Recommended
-    "react-you-might-not-need-an-effect-js/no-derived-state": "warn",
-    "react-you-might-not-need-an-effect-js/no-chain-state-updates": "warn",
-    "react-you-might-not-need-an-effect-js/no-event-handler": "warn",
-    "react-you-might-not-need-an-effect-js/no-adjust-state-on-prop-change": "warn",
-    "react-you-might-not-need-an-effect-js/no-reset-all-state-on-prop-change": "warn",
-    "react-you-might-not-need-an-effect-js/no-pass-live-state-to-parent": "warn",
-    "react-you-might-not-need-an-effect-js/no-pass-data-to-parent": "warn",
-    "react-you-might-not-need-an-effect-js/no-external-store-subscription": "warn",
-    "react-you-might-not-need-an-effect-js/no-initialize-state": "warn",
+    "react-you-might-not-need-an-effect/no-derived-state": "warn",
+    "react-you-might-not-need-an-effect/no-chain-state-updates": "warn",
+    "react-you-might-not-need-an-effect/no-event-handler": "warn",
+    "react-you-might-not-need-an-effect/no-adjust-state-on-prop-change": "warn",
+    "react-you-might-not-need-an-effect/no-reset-all-state-on-prop-change": "warn",
+    "react-you-might-not-need-an-effect/no-pass-live-state-to-parent": "warn",
+    "react-you-might-not-need-an-effect/no-pass-data-to-parent": "warn",
+    "react-you-might-not-need-an-effect/no-external-store-subscription": "warn",
+    "react-you-might-not-need-an-effect/no-initialize-state": "warn",
   },
 });
