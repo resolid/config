@@ -1,5 +1,11 @@
 # @resolid/config
 
+## 6.3.12
+
+### Patch Changes
+
+- [`ccaf709`](https://github.com/resolid/config/commit/ccaf709789f4ddf67b467b02c3e7910c47ce2739) - chore: update dependencies
+
 ## 6.3.11
 
 ### Patch Changes
