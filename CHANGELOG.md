@@ -1,5 +1,11 @@
 # @resolid/config
 
+## 6.3.14
+
+### Patch Changes
+
+- [`2bd7e49`](https://github.com/resolid/config/commit/2bd7e492dead0957a50016d4b2386b23badf5511) - chore: update dependencies
+
 ## 6.3.13
 
 ### Patch Changes
