@@ -1,3 +1,4 @@
+import reactYouMightNotNeedAnEffect from "eslint-plugin-react-you-might-not-need-an-effect";
 import { defineConfig } from "oxlint";
 
 export default defineConfig({
@@ -60,14 +61,6 @@ export default defineConfig({
     "react/exhaustive-deps": ["warn", { additionalHooks: "useIsomorphicEffect" }],
 
     // react-you-might-not-need-an-effect-js Recommended
-    "react-you-might-not-need-an-effect/no-derived-state": "warn",
-    "react-you-might-not-need-an-effect/no-chain-state-updates": "warn",
-    "react-you-might-not-need-an-effect/no-event-handler": "warn",
-    "react-you-might-not-need-an-effect/no-adjust-state-on-prop-change": "warn",
-    "react-you-might-not-need-an-effect/no-reset-all-state-on-prop-change": "warn",
-    "react-you-might-not-need-an-effect/no-pass-live-state-to-parent": "warn",
-    "react-you-might-not-need-an-effect/no-pass-data-to-parent": "warn",
-    "react-you-might-not-need-an-effect/no-external-store-subscription": "warn",
-    "react-you-might-not-need-an-effect/no-initialize-state": "warn",
+    ...reactYouMightNotNeedAnEffect.configs.recommended.rules,
   },
 });

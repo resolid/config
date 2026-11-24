@@ -1,7 +1,8 @@
 engineStrict: true
+lockfile:
+  format: v13
 overrides:
   "@types/node": "^24.19.2"
-  safer-buffer: npm:@nolyfill/safer-buffer@^1
 allowBuilds:
   lefthook: true
 minimumReleaseAge: 600

@@ -4,7 +4,7 @@ import javascriptConfig from "./javascript.js";
 export default defineConfig({
   extends: [javascriptConfig],
   plugins: ["typescript"],
-  options: { typeAware: true, typeCheck: true },
+  options: { typeAware: true },
   rules: {
     "typescript/adjacent-overload-signatures": "warn",
     "typescript/array-type": "warn",
